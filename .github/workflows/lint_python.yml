@@ -1,6 +1,7 @@
 name: lint_python
 on: [pull_request, push]
-jobs:
+jobs: college
+
   lint_python:
     runs-on: ubuntu-latest
     steps:
